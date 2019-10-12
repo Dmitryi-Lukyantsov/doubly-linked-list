@@ -2,10 +2,14 @@ const Node = require('./node');
 
 class LinkedList {
     constructor() {
-        this.arrList = [] 
+        this.arrList = [],
+        this.length = 0;
+        this.head
+        this.tail
     }
 
     append(data) {
+        this.head
         this.arrList.push(data)
     }
 
